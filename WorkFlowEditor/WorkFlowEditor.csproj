@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <RootNamespace>TheTechIdea.Beep.Workflow</RootNamespace>
+    <PackageId>TheTechIdea.Beep.Workflow.WorkFlowEditor</PackageId>
+    <Authors>The Tech Idea</Authors>
+    <Product>TheTechIdea.Beep.Workflow.WorkFlowEditor</Product>
+    <Description>A WorkFlow Editor for Beep Data Management Engine</Description>
+    <Copyright>2022</Copyright>
+    <PackageIcon>SimpleODM.png</PackageIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\..\..\..\OneDrive\SimpleInfoapps\LogoGFx\128\SimpleODM.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="TheTechIdea.Beep.DataManagementEngine2.0" Version="1.0.0.5" />
+    <PackageReference Include="TheTechIdea.Beep.DataManagementModels2.0" Version="1.0.0.5" />
+  </ItemGroup>
+
+</Project>
