@@ -9,6 +9,8 @@
     <Description>A WorkFlow Editor for Beep Data Management Engine</Description>
     <Copyright>2022</Copyright>
     <PackageIcon>SimpleODM.png</PackageIcon>
+    <RepositoryUrl>https://github.com/The-Tech-Idea/WorkFlowEditor</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/The-Tech-Idea/WorkFlowEditor</PackageProjectUrl>
   </PropertyGroup>
 
   <ItemGroup>
